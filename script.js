@@ -110,14 +110,14 @@ const getHealthMessage = () => {
       return healthMessages[randomizer4];
 };
 
-const getName = 'barkah';
+const getName = 'Barkah';
 
 const fateForThisMonth = {
-    name: getName,
-    finance: getFinanceMessage(),
-    love: getLoveMessage(),
-    friendship: getFriendshipMessage(),
-    health: getHealthMessage()
+    welcome: `Halo ${getName}! this is your fate for this month:`,
+    finance: `💰 ${getFinanceMessage()}`,
+    love: `❤️ ${getLoveMessage()}`,
+    friendship: `🎉 ${getFriendshipMessage()}`,
+    health: `🌿 ${getHealthMessage()}`
 };
 
 console.log(fateForThisMonth);
